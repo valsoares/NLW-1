@@ -1,0 +1,186 @@
+.total {
+    display: grid;
+    grid-template-areas: "head"
+                         "register";
+    grid-column-gap: 0px;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+.total form {
+    grid-area: register;
+    display: inline-flex;
+    flex-direction: column;
+    /* width: fit-content; */
+    max-width: 550px;
+    background-color: white;
+    padding: 5%;
+    margin: 0 auto;
+    margin-bottom: 10vh;
+    border-radius: 10px;
+}
+
+.total form h1 {
+    /* width: 18vw; */
+    width: 60%;
+    color: #322153;
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.total form h3 {
+    color: #322153;
+    margin-bottom: 25px;
+}
+
+.total form p {
+    color: #6A687A;
+    font-size: small;
+    margin-bottom: 5px;
+}
+
+.total form input {
+    background-color: #F0EFF4;
+    /* width: 30vw; */
+    /* width: 410px; */
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.total form select {
+    background-color: #F0EFF4;
+    color: #6A687A;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    appearance: none;
+}
+
+.total form .conjunto {
+    display: flex;
+}
+
+.total form .conjunto .grupo,
+.total form .conjunto .gruponum,
+.total form .conjunto .grupoend {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+
+}
+
+.total form .conjunto .grupo select {
+    /* width: 14.5vw; */
+    /* width: 195px; */
+    width: 100%;
+}
+
+.total form .conjunto .gruponum {
+    /* margin-left: 1vw; */
+    align-self: flex-end;
+    margin-left: 5%;
+}
+
+.total form .conjunto .gruponum p {
+    margin-left: 40%;
+}
+
+.total form .conjunto .gruponum input {
+    width: 60%;
+    /* width: 155px; */
+    align-self: flex-end;
+}
+
+.total form .conjunto .grupoend input {
+    width: 140%;
+    /* width: 235px; */
+}
+
+.total form .conjunto .grupo + .grupo{
+    /* margin-left: 1vw; */
+    margin-left: 5%;
+    
+}
+
+.total form .conjunto h3 {
+    /* margin-right: 6vw; */
+    margin-right: 20%;
+}
+
+.total form .fotos {
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    align-self: center;
+
+}
+
+.total form .fotos .grupo {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    background-color: #E2FFEC;
+    /* padding: 3vh 2.4vw; */
+    padding: 20px 20px;
+    border-radius: 3px;
+}
+
+.total form .fotos .grupo.active {
+    background-color: rgba(65, 222, 125, 0.548);
+}
+
+.total form .fotos .grupo figcaption {
+    color: #322153;
+    text-align: center;
+    font-size: small;
+    margin-top: 20px;
+}
+
+.total form button {
+    cursor: pointer;
+    display: flex;
+    align-self: flex-end;
+    width: fit-content;
+    background-color: #41DE7C;
+    /* background-color: rgba(65, 222, 125, 0.548); */
+    color: white;
+    padding: 16px;
+    margin-top: 8vh;
+    border: none;
+    border-radius: 5px;
+}
+
+.total .checkHidden {
+    display: none;
+}
+
+.total .checkShow  {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 0;
+    left: 0;
+    justify-content: center;
+}
+
+.total .checkShow h1 {
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.total .checkShow img {
+    margin-bottom: 20px;
+}

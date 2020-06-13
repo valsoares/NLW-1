@@ -1,0 +1,69 @@
+.coletaHidden, form {
+    display: none;
+}
+
+.coletaShow {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 0;
+    left: 0;
+    justify-content: center;
+
+}
+
+.coletaShow form {
+    display: flex;
+    flex-direction: column;
+}
+
+.coletaShow h1 {
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.coletaShow img {
+    cursor: pointer;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 3px;
+    
+}
+
+.coletaShow select {
+    width: 300px;
+    background-color: #F0EFF4;
+    color: #6A687A;
+    text-align: center;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.coletaShow button {
+    width: 300px;
+    background-color: #41DE7C;
+    color: white;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.coletaShow a {
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(226, 226, 226);
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.total {
+    display: grid;
+    grid-template-areas: "head head"
+                         "text logo";
+    grid-column-gap: 0px;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+@media (max-width: 900px) {
+    .total {
+        grid-template-areas: "head"
+                            "text"
+                            "logo";
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+}
+
+header {
+    grid-area: head;
+    padding: 4% 10%;   
+}
+
+header a {
+    float: right;
+    font-weight: 600;
+    color: #322153;
+}
+
+header a img {
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -2px;
+}
+
+@media (max-width: 900px) {
+    header {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 50px;
+    }
+
+    header a {
+        text-align: center;
+        font-weight: 600;
+        color: #322153;
+        margin-top: 30px;
+    }
+}
+
+.conteudo {
+    grid-area: text;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.conteudo h1 {
+    color: #322153;
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+.conteudo p {
+    color: #322153;
+    line-height: 30px;
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+.conteudo button {
+    cursor: pointer;
+    background-color: #54FC8C;
+    color: white;
+    padding: 16px;
+    padding-left: 60px;
+    border: none;
+    border-radius: 5px;
+}
+
+.conteudo button:hover {
+    background-color: #4AE97D;
+}
+
+.conteudo button img {
+    position: absolute;
+    /* background-color: #4AE97D; */
+    color: white;
+    margin-top: -16px;
+    margin-left: -60px;
+    padding: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+@media (max-width: 900px) {
+    .conteudo {
+        grid-area: text;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        margin-top: 20px;
+        margin-left: 0;
+        margin-bottom: 5%;
+    }
+
+    .conteudo h1 {
+        text-align: center;
+    }
+
+    .conteudo p {
+        text-align: center;
+        line-height: 30px;
+        color: #322153;
+        margin-bottom: 20px;
+        width: 100vw;
+    }
+}
+
+.logomaior {
+    grid-area: logo;
+}
+
+.logomaior img {
+    width: 100%;
+}

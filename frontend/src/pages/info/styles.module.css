@@ -1,0 +1,59 @@
+.total {
+    display: grid;
+    grid-template-areas: "head"
+                         "itens";
+    grid-column-gap: 0px;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+.total .conteudo {
+    grid-area:'itens';
+    width: 100%;
+    background-color: white;
+    padding: 50px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+
+.total .conteudo .conjunto {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+}
+
+.total .conteudo p {
+    color: #322153;
+    margin-bottom: 20px;
+}
+
+.total .conteudo h3 {
+    color: #322153;
+    margin-bottom: 10px;
+}
+
+.total .conteudo h4 {
+    color: #322153;
+    margin-bottom: 10px;
+}
+
+.total .page img {
+    border: 2px solid #4AE97D;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.total .page {
+    display: flex;
+    justify-content: center;
+}
+
+.total .conteudo .itens {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #4AE97D;
+    border-radius: 5px;
+    min-width: 300px;
+
+}
