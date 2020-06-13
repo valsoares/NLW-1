@@ -5,9 +5,9 @@
 > A aplicação consiste em um site que cadastra e lista locais onde pode-se descartar certos tipos de material.
 
 ## :wrench: Tecnologias utilizadas
-- O frontend foi construido com Reactjs
-- O backend foi construido com Nodejs e Knex
-- O banco de dados foi construido com SQLite
+- O frontend foi construído com Reactjs
+- O backend foi construiído com Nodejs e Knex
+- O banco de dados foi construído com SQLite
 
 ## :camera_flash: Capturas de tela
 
