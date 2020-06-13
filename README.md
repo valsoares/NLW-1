@@ -1,7 +1,7 @@
 ## :pushpin: Objetivo
 > Repositório para os arquivos do curso Next Level Week #1 da Rocketseat
 
-## :label: Aplicação
+## :satellite: Aplicação
 > A aplicação consiste em um site que cadastra e lista locais onde pode-se descartas certos tipos de material.
 
 ## :wrench: Tecnologias utilizadas
