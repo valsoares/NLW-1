@@ -6,7 +6,7 @@
 
 ## :wrench: Tecnologias utilizadas
 - O frontend foi construído com Reactjs
-- O backend foi construiído com Nodejs e Knex
+- O backend foi construído com Nodejs e Knex
 - O banco de dados foi construído com SQLite
 
 ## :camera_flash: Capturas de tela
