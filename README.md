@@ -12,7 +12,7 @@ A aplicação consiste em um site que cadastra e lista locais onde pode-se desca
 ## :camera_flash: Capturas de tela
 
 ### Página inicial 
-![home](https://github.com/valsoares/NLW-1/edit/master/prints/home.png)
+<img src="https://github.com/valsoares/NLW-1/edit/master/prints/home.png" width="300" height="auto">
 
 ### Página de cadastro
 
