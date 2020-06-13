@@ -12,16 +12,16 @@ A aplicação consiste em um site que cadastra e lista locais onde pode-se desca
 ## :camera_flash: Capturas de tela
 
 ### Página inicial 
-<img src="https://github.com/valsoares/NLW-1/edit/master/prints/home.png" width="300" height="auto">
+![home](https://github.com/valsoares/NLW-1/blob/master/prints/home.png)
 
 ### Página de cadastro
 
-![register](https://github.com/valsoares/NLW-1/edit/master/prints/register1.png)
-![register](https://github.com/valsoares/NLW-1/edit/master/prints/register2.png)
-![register](https://github.com/valsoares/NLW-1/edit/master/prints/register3.png)
+![register](https://github.com/valsoares/NLW-1/blob/master/prints/register1.png)
+![register](https://github.com/valsoares/NLW-1/blob/master/prints/register2.png)
+![register](https://github.com/valsoares/NLW-1/blob/master/prints/register3.png)
 
 ### Página de listagem
 
-![info](https://github.com/valsoares/NLW-1/edit/master/prints/info1.png)
-![info](https://github.com/valsoares/NLW-1/edit/master/prints/info2.png)
-![bd](https://github.com/valsoares/NLW-1/edit/master/prints/bd.png)
+![info](https://github.com/valsoares/NLW-1/blob/master/prints/info1.png)
+![info](https://github.com/valsoares/NLW-1/blob/master/prints/info2.png)
+![bd](https://github.com/valsoares/NLW-1/blob/master/prints/bd.png)
