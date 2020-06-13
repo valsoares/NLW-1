@@ -1,27 +1,45 @@
 ## :pushpin: Objetivo
-Repositório para os arquivos do curso Next Level Week #1 da Rocketseat
+> Repositório para os arquivos do curso Next Level Week #1 da Rocketseat
 
 ## :label: Aplicação
-A aplicação consiste em um site que cadastra e lista locais onde pode-se descartas certos tipos de material.
+> A aplicação consiste em um site que cadastra e lista locais onde pode-se descartas certos tipos de material.
 
 ## :wrench: Tecnologias utilizadas
 - O frontend foi construido com Reactjs
-- O backend foi construido com Nodejs 
-- O banco de dados foi construido com SQLite e Knex
+- O backend foi construido com Nodejs e Knex
+- O banco de dados foi construido com SQLite
 
 ## :camera_flash: Capturas de tela
 
 ### Página inicial 
-![home](https://github.com/valsoares/NLW-1/blob/master/prints/home.png)
+> A página inicial contém o acesso para o cadastro dos locais de coleta e o acesso para a listagem das coletas em um determinado local.
+<br /><br />
+<img src="https://github.com/valsoares/NLW-1/blob/master/prints/home.png" alt="home" width="700">
 
 ### Página de cadastro
 
-![register](https://github.com/valsoares/NLW-1/blob/master/prints/register1.png)
-![register](https://github.com/valsoares/NLW-1/blob/master/prints/register2.png)
-![register](https://github.com/valsoares/NLW-1/blob/master/prints/register3.png)
+> A página de cadastro contém espaço para preenchimento dos dados necessários para os locais de coleta.
+<img src="https://github.com/valsoares/NLW-1/blob/master/prints/register1.png" alt="register" width="700">
+<br /><br />
+
+> Ilustração dos itens selecionados.
+<img src="https://github.com/valsoares/NLW-1/blob/master/prints/register2.png" alt="register" width="700">
+<br /><br />
+
+> Após o cadastro essa imagem de sucesso é mostrada e após 2 segundos o site é redirecionado para a página inicial.
+<img src="https://github.com/valsoares/NLW-1/blob/master/prints/register3.png" alt="register" width="700">
+<br /><br />
 
 ### Página de listagem
 
-![info](https://github.com/valsoares/NLW-1/blob/master/prints/info1.png)
-![info](https://github.com/valsoares/NLW-1/blob/master/prints/info2.png)
-![bd](https://github.com/valsoares/NLW-1/blob/master/prints/bd.png)
+> A página de listagem contém a lista de locais de coleta de uma cidade especifica.
+<img src="https://github.com/valsoares/NLW-1/blob/master/prints/info1.png" alt="info" width="700">
+<img src="https://github.com/valsoares/NLW-1/blob/master/prints/info2.png" alt="info" width="700">
+<br /><br />
+
+> Exemplo de itens cadastrados mostrados no banco de dados.
+<img src="https://github.com/valsoares/NLW-1/blob/master/prints/bd.png" alt="bd" width="700">
+<br /><br />
+
+## :construction: Próximos passos
+- [ ] Paginação
