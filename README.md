@@ -2,7 +2,7 @@
 > Repositório para os arquivos do curso Next Level Week #1 da Rocketseat
 
 ## :satellite: Aplicação
-> A aplicação consiste em um site que cadastra e lista locais onde pode-se descartas certos tipos de material.
+> A aplicação consiste em um site que cadastra e lista locais onde pode-se descartar certos tipos de material.
 
 ## :wrench: Tecnologias utilizadas
 - O frontend foi construido com Reactjs
